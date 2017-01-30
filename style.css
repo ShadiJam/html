@@ -1,6 +1,6 @@
 img.houston {
-  width: 100%;
-  height: auto;
+  min-width: 100%;
+
 }
 
 img.logo {
@@ -11,4 +11,45 @@ img.logo {
     left: 140px;
     border: 5px solid white;
     margin-bottom: -5%;
+}
+
+div.info {
+  padding-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+div.info ul {
+  display: inline-block;
+  list-style-type: none;
+  display: table-cell;
+  width: 100%;
+}
+
+ul.first {
+  width: 200px;
+  height: auto;
+}
+
+ul.second {
+  width: 400px;
+  height: auto;
+}
+
+p.hap {
+  color: grey;
+}
+
+p.search {
+  color: grey;
+  padding-top: 20px;
+}
+
+p.dorton {
+  font-size: small;
+}
+
+img.bottom {
+  width: 400px;
+  height: auto;
 }
